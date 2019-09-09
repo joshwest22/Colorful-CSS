@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Verdana, sans-serif;}
+h1,h2 {
+  color:0E53A7;}
+p {
+    color: crimson;}
+#gradient {
+    /* fallback color */
+    background-color: #05346D;
+    /*gradient color*/
+    background-image: -webkit-linear-gradient (#05346D,#0E54A7); 
+}
+th {
+    border-bottom: 2px solid #000000;
+    text-align: left;
+    
+} 
