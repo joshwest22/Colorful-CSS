@@ -1,17 +1,42 @@
 body {
-  font-family: Arial, Verdana, sans-serif;}
-h1,h2 {
-  color:0E53A7;}
+  font-family: Arial, Verdana, sans-serif;
+    background: #BFE3FF}
+h1 {
+  color:#0C032B;}
+h2{
+    color: darkgreen;}
 p {
-    color: crimson;}
+    color: #0C032B;}
 #gradient {
     /* fallback color */
     background-color: #05346D;
     /*gradient color*/
-    background-image: -webkit-linear-gradient (#05346D,#0E54A7); 
-}
+    background-image: linear-gradient (to right,#05346D,#0E54A7); }
 th {
     border-bottom: 2px solid #000000;
-    text-align: left;
-    
-} 
+    text-align: center;} 
+
+tr,table,td{
+    text-align: center;
+    border: 4px solid black;
+    border-collapse: collapse;}
+
+/*centers image*/
+img{
+display: block;
+margin: 0px auto;}
+
+#homebutton {
+    color:#003300;
+    text-transform: uppercase;}
+/*INACTIVE: bc not doing what I want it to*/
+    #homebg{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Toyogeki-Movie_Toyooka002.jpg/512px-Toyogeki-Movie_Toyooka002.jpg");
+    background-repeat: no repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;}
+dt{
+    color: forestgreen;
+    text-decoration: underline;}
+#devhead{color: darkorange;}
